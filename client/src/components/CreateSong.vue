@@ -91,7 +91,8 @@ export default {
                 youtubeId: null,
                 lyric: null,
                 tab: null
-            },   
+            }, 
+            error: null,
             required: (value) => !!value || 'Required.'
         }
     },
