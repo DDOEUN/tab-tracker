@@ -1,5 +1,5 @@
 <template>
-  <v-layout column>
+  <v-container fluid column>
     <v-flex xs6 offset-xs3>
       <panel title="Register">
         <form name="tab-tracker-form"
@@ -26,7 +26,7 @@
           </v-btn>
       </panel>
     </v-flex>
-  </v-layout>
+  </v-container>
 </template>
 
 <script>
