@@ -1,9 +1,9 @@
 <template>
     <panel title="YouTube Video">
         <youtube
-        :video-id="youtubeId"
-        :player-width="800"
-        :player-height="330">
+            :video-id="youtubeId"
+            :player-width="500"
+            :player-height="240">
         </youtube>
     </panel>
 </template>
@@ -16,7 +16,7 @@ export default {
        'youtubeId'
    ],
    components: {
-       Panel,
+       Panel
    }
 }
 </script>
